@@ -1,5 +1,5 @@
 {% set name = "pytask-r" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_r-{{ version }}.tar.gz
-  sha256: 9ba225931038050f9ba89376c60844f036b1782b05ee4fd6fda8d1343902cdd6
+  sha256: 0314f08c68355d0e1f8fcf38dc405566bb775d31dfa2e80313738b71b33fc9bd
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
