@@ -1,5 +1,5 @@
 {% set name = "pytask-r" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_r-{{ version }}.tar.gz
-  sha256: 0314f08c68355d0e1f8fcf38dc405566bb775d31dfa2e80313738b71b33fc9bd
+  sha256: b4e98c8af983796dc141e532731b279b400394d4a1e194f3b19da9f262856ed8
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -22,7 +22,8 @@ requirements:
     - setuptools_scm
     - toml
   run:
-    - pytask >=0.1.7
+    - pybaum >=0.1.1
+    - pytask >=0.2
     - python >=3.7
 
 test:
