@@ -22,8 +22,9 @@ requirements:
     - setuptools_scm
     - toml
   run:
+    - pluggy
     - pybaum >=0.1.1
-    - pytask >=0.2
+    - pytask >=0.3
     - python >=3.7
 
 test:
