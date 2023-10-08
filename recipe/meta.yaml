@@ -18,14 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools_scm
     - toml
   run:
-    - pluggy
-    - pybaum >=0.1.1
-    - pytask >=0.3
-    - python >=3.7
+    - click
+    - pluggy >=1.0.0
+    - pytask >=0.4.0
+    - python >=3.8
 
 test:
   imports:
