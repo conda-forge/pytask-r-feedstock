@@ -1,11 +1,11 @@
-About pytask-r
-==============
+About pytask-r-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytask-r-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pytask-dev/pytask-r
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytask-r-feedstock/blob/main/LICENSE.txt)
 
 Summary: Run R scripts with pytask.
 
