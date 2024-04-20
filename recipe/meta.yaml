@@ -24,7 +24,7 @@ requirements:
   run:
     - click
     - pluggy >=1.0.0
-    - pytask >=0.4.0
+    - pytask >=0.4.5
     - python >=3.8
 
 test:
