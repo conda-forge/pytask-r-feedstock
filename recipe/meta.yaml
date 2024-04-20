@@ -1,5 +1,5 @@
 {% set name = "pytask-r" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_r-{{ version }}.tar.gz
-  sha256: b7861c2f22485bb1db0e755c149657bb824c1c0390b1c1d138841c25db0f49fd
+  sha256: a792ee89616d12fe388c916e2b6e15cb8f4933a6dc55062d5cfff37729f0c8e5
 
 build:
   number: 0
@@ -19,12 +19,12 @@ requirements:
   host:
     - pip
     - python >=3.8
-    - setuptools_scm
-    - toml
+    - hatchling
+    - hatch-vcs
   run:
     - click
     - pluggy >=1.0.0
-    - pytask >=0.4.0
+    - pytask >=0.4.5
     - python >=3.8
 
 test:
